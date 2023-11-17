@@ -1,0 +1,622 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Montserrat', sans-serif;
+    transition: linear .3s;
+    
+}
+
+/* phone menu */
+
+.mobile-nav{
+    display: none;
+}
+
+/* desktop nav */
+
+nav{
+    background-color: rgba(2, 3, 8, 0.8);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav> div {
+    float: right;
+    padding: 20px;
+}
+
+nav> div> a{
+    text-decoration: none !important;
+    margin: 0px 50px 0px 0px;
+    color: rgb(63, 233, 41);
+}
+
+nav> div> a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* HERO- FIRST SECTION */
+
+.hero{
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(/images/agro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white;
+    text-align: center !important;
+}
+
+
+.texts{
+    text-align: center !important;
+    cursor: default;justify-content: center;
+    align-items: center;
+}
+
+.texts> h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.texts> h1>span {
+    color: rgb(32, 255, 2);
+}
+
+.texts> p{
+    padding: 0px 400px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* animate H1 */
+
+
+@keyframes slide {
+    from{
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.texts> h1{
+    animation: slide 1s ease-in;
+}
+
+
+@keyframes slidep {
+    from{
+        transform: translateX(-10%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.texts> p{
+    animation: slidep 1s ease-in;
+}
+
+.texts>div>a{
+    text-decoration: none;
+}
+
+.btns{
+    background-color: transparent;
+    border: 2px solid rgb(32, 255, 2);
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+
+.btns:hover{
+    background-color: rgb(32, 255, 2);
+    border: 2px solid rgb(32, 255, 2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px;
+    transition: linear .3s;
+}
+
+/* PRODUCT */
+
+.product-heading{
+    color: rgb(24, 197, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    /* width: 100% !important; */
+    margin-bottom:  100px;
+}
+
+.card>img {
+    height: 450px !important;
+}
+
+.product
+{
+    /* padding: 0px 100px; */
+    padding: 0px 50px !important;
+    margin: 0px !important;
+}
+
+.card-body{
+    background: linear-gradient(to bottom, rgb(2, 228, 2), rgb(0, 58, 0)) !important;
+    padding: 25px !important;
+    height: 200px !important;
+    text-align: center;
+}
+
+.card-body> h5{
+   color: rgb(1, 29, 1);
+   font-weight: 600;
+}
+
+.card-body> p{
+   color: white !important;
+}
+
+/* SWIPER */
+
+  .project>h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .project {
+    background-color: rgb(0, 2, 0);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+    height: 100% !important;
+  }
+
+  .swiper {
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px !important;
+  }
+
+  .swiper-slide {
+    background-position: center !important;
+    background-size: cover !important;
+    width: 70% !important;
+    height: 0px !important;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100% !important;
+  }
+
+  .swiper-slide> a{
+    text-decoration: none;
+    color: rgb(155, 253, 142);
+    font-size: 26px;
+  }
+
+  .swiper-slide> a> i {
+    font-size: 26px;
+    padding-left: 15px;
+  }
+
+  .swiper-slide> a:hover{
+    color: white;  
+}
+
+.swiper-slide> a> i:hover {
+    padding-left: 25px;
+  }
+
+
+
+/* SECOND SECTION */
+
+.second-section-title{
+    color: rgb(24, 197, 1);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.second-section{
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.attributes{
+    width: 300PX;
+    height: 200px;
+    color: rgb(24, 197, 1);
+    box-shadow: 0px 0px 15px rgb(225, 230, 226);
+    margin: 10px 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.attributes:hover{
+    width: 320PX;
+    height: 220px;
+    color: rgb(78, 243, 56);
+    box-shadow: 0px 0px 15px rgb(212, 226, 215);
+}
+
+.second-section> .attributes> div> i {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.second-section> .attributes> p{
+    vertical-align: middle;
+}
+
+/* THIRD SECTION */
+.third-section{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.third-section> .first {
+  width: 45%;
+  margin-right: 60px;
+  line-height: 30px;
+  color: rgb(15, 116, 2);
+  text-align: justify;
+}
+
+.third-section> .first > h5{
+  font-weight: 600;
+  color:rgb(24, 197, 1);
+}
+
+.third-section> .second {
+    width: 50%;
+    border: 10px solid rgb(24, 197, 1);
+    background: url(images/who.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.third-section> .second:hover {
+    background-size: 105%;
+}
+
+.third-section> .first > a> .fb-btn {
+    background-color: rgb(32, 255, 2);
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.third-section> .first > a> .fb-btn:hover{
+    background-color: rgb(25, 199, 2);
+}
+
+/* FOURTH SECTION */
+.fourth-section{
+    background: url(images/acheive-bg2.jpg) no-repeat;
+    background-size: 100%;
+    background-image: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(24, 204, 0);
+    padding: 30px 0px;
+}
+
+.achieve{
+    margin: 0px 0px; 
+    color: white;
+    padding: 0px 50px !important;
+}
+.achieve> h2{
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow:  2px 2px 4px rgba(2, 5, 3, 0.2);
+}
+
+.fourth-section> .border-right{
+    border-right: 1px solid rgb(86, 248, 71);
+    color: white
+}
+
+/* FIFTH SECTION */
+.slide{
+    padding: 50px 300px;
+}
+
+.carousel-item{
+    text-align: center;
+    color: rgb(15, 182, 0);
+}
+
+.review-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.carousel-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.carousel-item>div> h3{
+    font-weight: 600;
+    color: rgb(15, 180, 0);
+}
+
+.fifth-title{
+    text-align: center;
+    margin-bottom: 50px;
+    color:rgb(15, 182, 0) ;
+}
+
+/* SIXTH SECTION */
+.sixth-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    color: white;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.welcome-message> h2 {
+    font-weight: 700;
+}
+
+.welcome-message> h1 {
+    font-weight: 800;
+    font-size: 80px;
+    color: rgb(24, 236, 4);
+    line-height: 65px;
+}
+
+.welcome-message> a> i {
+    color:rgb(24, 236, 4) ;
+    font-size: 40px;
+}
+
+.welcome-message> a> i:hover {
+    font-size: 47px;
+}
+
+/* slideshow */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fade> img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fade {
+    animation: fade 3s ease-in-out infinite;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 0.9;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 141, 3, 0.5);
+    /* background-image: linear-gradient(rgba(36, 153, 7, 0.2), rgba(0, 0, 0, 1)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Ensure the overlay is above the slides */
+  }
+  
+  .welcome-message {
+    text-align: center;
+    color: white;
+  }
+  
+
+/* SEVENTH SECTION */
+
+.news-heading{
+    color: rgb(24, 236, 4);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 400px;
+    transition: 2s;
+    margin: 0px 50px;
+}
+
+.news-image{
+    position: relative;
+    height: 300px;
+}
+
+.news-image:hover{
+    background-size: 107% !important;
+    transition: 2s;
+}
+
+.date{
+    position: absolute;
+    top: 225px;
+    background-color: rgb(24, 236, 4);
+    width: 80px;
+    padding: 14px 10px;
+    color: white;
+    text-align: center;
+}
+
+.date>p{
+    margin-bottom: 0px !important;
+    font-weight: 700;
+}
+
+
+.news-title {
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(14, 153, 2) ;
+    font-weight: normal;
+    margin-bottom: 0px !important;
+}
+
+.news-title-link> a{
+    font-size: 24px;
+    color:rgb(24, 236, 4)  ;
+    text-decoration: none;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 20px !important;
+}
+
+.news-title-link{
+    margin-top: 10px !important;
+}
+
+.news-title-link> a:hover {
+    color: rgb(16, 179, 1) ;
+}
+
+.news-more> a{
+    font-size: 14px;
+    color:rgb(14, 168, 0)  ;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.news-more> a:hover {
+    font-size: 20 px;
+    color:rgb(13, 49, 126) ;
+} 
+
+
+
+/* FOOTER SECTION */
+.eight-section{
+    background-color: rgb(0, 10, 0);
+    height: 100%;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px){
+    .eight-section{
+        margin-top: 20px;
+    }
+}
+
+.eight-contain{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+
+.contain{
+    margin: 30px 50px;
+    line-height: 30px;
+}
+
+@media (max-width: 600px){
+    .contain{
+        width: 100% !important;
+        margin: 30px 30px;
+    }
+}   
+
+
+.contain> a {
+    text-decoration: none;
+    color: white;
+}
+
+.contain> h5{
+    font-weight: 700;
+}
+
+.contain> a:hover {
+    text-decoration: none;
+    color: rgb(25, 226, 25);
+}
+
+i {
+    font-size: 15px;
+    margin-right: 5px;
+} 
+

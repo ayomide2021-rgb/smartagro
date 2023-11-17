@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="nav-mediaquiery.css">
+    <title>Smart Agro</title>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0384ebf309.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image" href="shops.png">
+
+    <!-- SWIPER -->
+    <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+
+</head>
+<body>
+<!-- nav bar -->
+<div class="mobile-nav">
+
+    <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/index.html">Home</a>
+                <a href="/index.html#product">Product</a>
+                <a href="/project/project.html">Projects</a>
+                <a href="/team/team.html">Team</a>
+                <a href="/contact/contact.html">Contact</a>
+            </div>
+    </div>
+        
+    <div class="hamburger-menu">   
+        <span style="font-size:40px;cursor:pointer; padding:20px; color:white; ; " onclick="openNav()"><i class="fa-solid fa-bars"></i> </span>
+    </div>     
+        <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+
+</div>
+
+<nav class="desktop">
+    <div>
+        <a href="/index.html">Home</a>
+        <a href="/index.html#product">Product</a>
+        <a href="/project/project.html">Projects</a>
+        <a href="/team/team.html">Team</a>
+        <a href="/contact/contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO PAGE -->
+<div class="hero">
+
+    <div class="texts">
+        <h1>Smart <span>Agro</span></h1>
+        <p>Smart Agro is an Initiative for the research, development and growth of agricultural industries</p>
+        <div>
+            <a href="/project/project.html"> <button class="btns" href="facebook.com">Learn more</button> </a>  
+            <a href="#About"> <button class="btns">About Us</button> </a> 
+        </div>
+    </div>
+
+</div> <br><br>
+
+
+<!-- PRODUCT -->
+<h1 class="product-heading">Our Products</h1>
+<div class="row row-cols-1 row-cols-md-3 product" >
+
+    <div class="col" id="product">
+      <div class="card">
+        <img src="/images/biochar.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" >BIOCHAR SOIL CONDITIONER</h5>
+          <p class="card-text">Biochar, a carbon-rich soil conditioner from biomass pyrolysis, improves soil structure, nutrient retention, and microbial activity</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+          <img src="/images/fertilizer.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ORGANIC FERTILIZER</h5>
+            <p class="card-text">This product is the creation of fertilizers using natural materials and processes, excluding synthetic chemicals</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="/images/blackfly.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BLACK SOLDIER FLY LARVAE MEAL</h5>
+          <p class="card-text">This product involves cultivating black soldier fly larvae, harvesting them, and processing them into a protein-rich meal.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- PROJECT SECTION -->
+    <div class="project">
+        <h1>Our Projects</h1>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <img src="images/extensions.png" /> <br>
+                <a href="/project/project.html#extension" target="">Learn More <i class="fa-solid fa-arrow-right-long"></i></i> </a>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/aqua.png" /> <br>
+              <a href="/project/project.html#aqua" target="">Learn More <i class="fa-solid fa-arrow-right-long"></i> </a>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/nimtracker.png" /> <br>
+              <a href="/project/project.html#nimtracker" target="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/recycling.jpg" /> <br>
+              <a href="/project/project.html#recycling" target="">Learn More<i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/gantilizer.png" /> <br>
+              <a href="/project/project.html#gantilizer" target="">Learn More <i class="fa-solid fa-arrow-right-long"></i> </a>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+        <!-- Initialize Swiper -->
+      <script>
+          var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+            },
+          });
+        </script>
+      
+      </div>
+  
+
+     <!-- SECOND SECTION -->
+
+    <h1 class="second-section-title">What We Offer</h1>
+    <div class="second-section d-flex flex-wrap align-items-center justify-content-center text-center ">
+
+        <div class="attributes">
+            <div>
+                <i class="fa-solid fa-wind"></i>
+                <p>Wind Energy</p>
+            </div>
+        </div>
+        
+        <div class="attributes ">
+            <div>
+                <i class="fa-solid fa-solar-panel"></i>
+                <p>Renewable Energy</p>
+            </div>
+        </div>
+        
+        <div class="attributes">
+            <div>
+                <i class="fa-solid fa-sun-plant-wilt"></i>
+                <p>Saving Forests</p>
+            </div>
+        </div> 
+        
+        <div class="attributes">
+            <div>
+                <i class="fa-solid fa-cow"></i>
+                <p>Saving Animals</p>
+            </div>
+        </div>
+        
+        <div class="attributes">
+            <div>
+                <i class="fa-solid fa-plug-circle-plus"></i>
+                <p>Energy Saving</p>
+            </div>
+        </div>
+        
+        <div class="attributes">
+            <div>
+                <i class="fa-solid fa-tractor"></i>
+                <p>Green Technology</p>
+            </div>
+        </div>
+    
+  </div>
+
+<!-- THIRD SECTION -->
+  <div class="third-section" >
+        <div class="col-lg-6 first" id="About">
+            <h5>WHO WE ARE</h5><br>
+            <p>Our goal is to achieve sustainable and viable agriculture making sure that people have regular access. SmartAgro is doing its best to ensure that agriculture remains profitable and cost-effective using innovative solutions.</p>
+            <p> We are taking strategic steps to ensure that the NIMTrack solutions meet the global standard and become universally accessible</p>
+            <a href="https://www.facebook.com/smartagrong?_rdc=1&_rdr" target="_blank"><button class="fb-btn">Discover more</button></a>
+        </div>
+
+        <div class="col-lg-6 second">
+            
+        </div>
+  </div>
+
+<!-- FOURTH SECTION -->
+  <div class="fourth-section">
+        <div class="achieve border-right">
+            <h2>200+</h2>
+            <p>Farmers Reached</p>
+        </div>
+        
+        <div class="achieve border-right">
+            <h2>5+</h2>
+            <p>Products</p>
+        </div>
+
+        <div class="achieve border-right">
+            <h2>10+</h2>
+            <p>Projects</p>
+        </div>
+
+        <div class="achieve">
+            <h2>9+</h2>
+            <p>Years Experience</p>
+        </div>
+  </div>
+
+<!-- FIFTH SECTION -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="fifth-title">
+        <h6>TESTIMONIAL</h6>
+    <H3>What they say about us</H3>
+    </div>
+    
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div  class="  carousel-content" >
+            <div class="review-image" style="background: url(images/rev1.jpg) no-repeat; background-size: cover"></div>
+            <h3>DR ABIODUN MUSTAPHA</h3>
+            <p> Repudiandae, voluptatem! Possimus magnam doloremque atque praesentium quibusdam quae neque optio quaerat odit, pariatur cumque repellat quia amet modi, perferendis minus nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, illo. Repudiandae quis</p>
+        </div>
+      </div>
+
+      <div class="carousel-item ">
+        <div  class="carousel-content" >
+            <div class="review-image" style="background: url(images/ali.jpg) no-repeat; background-size:cover"></div>
+            <h3>SARAH CHRISTOPHER</h3>
+            <p> Repudiandae, voluptatem! Possimus magnam doloremque atque praesentium quibusdam quae neque optio quaerat odit, pariatur cumque repellat quia amet modi, perferendis minus nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, illo. Repudiandae quis</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div  class=" carousel-content" >
+            <div class="review-image" style="background: url(images/chris.jpg) no-repeat; background-size: cover"></div>
+            <h3>MICHEAL THOMPSON</h3>
+            <p> Repudiandae, voluptatem! Possimus magnam doloremque atque praesentium quibusdam quae neque optio quaerat odit, pariatur cumque repellat quia amet modi, perferendis minus nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, illo. Repudiandae quis</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- SIXTH SECTION -->
+<!-- slideshow -->
+
+<div class="slideshow-container sixth-section">
+    
+    <div class="overlay">
+        <div class="welcome-message">
+            <h3>Check out our </h3>
+            <h2>PAST OUTREACH</h2>
+            <h1>PHOTOS</h1><br>
+            <a href="/photos/photos.html"><i class="fa-regular fa-circle-down"></i></a>
+          </div>
+    </div>
+    
+
+    <div class="mySlides fade">
+      <img src="/images/three.jpg" alt="Slide 1">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/images/two.jpeg" alt="Slide 2">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="/images/four.jpg" alt="Slide 3">
+    </div>
+</div>
+
+  <script>
+    var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+
+        setTimeout(showSlides, 3000); // Change slide every 3 seconds
+        }
+
+  </script>
+
+
+
+
+<!-- SEVENTH SECTION -->
+
+<h1 class="news-heading">Our Recent News</h1>
+<div class="news-container">
+    
+    <div class="news">
+        <div class="news-image" style="background: url(images/cattle-farmers.jpg) no-repeat !important; background-size: 100%">
+            <div class="date">
+                <p>FEB</p>
+                <p>03</p>
+            </div>
+        </div>
+
+        <div class="news-link">
+            <p class="news-title">| Cattle Farmers</p>
+            <p class="news-title-link"><a href="https://web.facebook.com/smartagrong/posts/168940515883505?ref=embed_post" target="_blank"> Market Outreach in the Southwest region to Cattle Farmers</a></p>
+            <p class="news-more"><a href="https://web.facebook.com/smartagrong/posts/168940515883505?ref=embed_post" target="_blank">READ MORE »</a> </p>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="news-image" style="background: url(images/Devdiscourse.webp) no-repeat; background-size: 110%">
+            <div class="date">
+                <p>FEB</p>
+                <p>03</p>
+            </div>
+        </div>
+
+        <div class="news-link">
+            <p class="news-title">|  Smart Agro on Devdiscourse</p>
+            <p class="news-title-link"><a href="https://www.devdiscourse.com/article/technology/893013-nigeria-researchers-develop-app-to-address-cattle-rustling" target="_blank"> Smart Agro develop App to Address Cattle Rustling</a></p>
+            <p class="news-more"><a href="https://web.facebook.com/smartagrong/posts/168940515883505?ref=embed_post" target="_blank">READ MORE »</a> </p>
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER SECTION -->
+
+<div class="eight-section">
+
+    <div class="eight-contain">
+
+        <div class="contain" style="width: 20%;">
+            <img src="/images/logo.jpg" alt="" width="70px" class="mb-4"><br>
+            <p>Smart Agro is an Initiative for the research, development and growth of agricultural industires</p>
+        </div>
+
+        <div class="contain">
+           <h5>LINKS</h5><br>
+                <a href="/index.html">Home</a><br>
+                <a href="/index.html#product">Product</a><br>
+                <a href="/project/project.html">Projects</a><br>
+                <a href="/team/team.html">Team</a><br>
+                <a href="/contact/contact.html">Contact</a><br>
+        </div>
+
+        <div class="contain" style="width: 20%;">
+            <h5>CONTACT US</h5><br>
+            <a href="tell:2347030700561"><i class="fa-solid fa-phone"></i> +234 0703 070 0561</a><br>
+            <a href="mailto:"><i class="fa-solid fa-envelope"></i>smartagro@gmail.com</a><br>
+            <a href="https://smartagro.com.ng/"><i class="fa-solid fa-globe"></i>  smartagro.com.ng</a><br>
+            <a href=""><i class="fa-solid fa-location-dot"></i> Federal University of Agriculture, Abeokuta, Nigeria</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- JavaScript to show/hide the fixed section based on scroll position -->
+<!-- <script>
+    
+    window.onscroll = function() {
+        var yourid = document.getElementById("yourid");
+        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+        // Adjust the value (e.g., 200) based on when you want the section to appear
+        if (scrollPosition > 2000) {
+            yourid.style.display = "block";
+        } else {
+            yourid.style.display = "none";
+        }
+    };
+</script> -->
+
+</body>
+
+</html>
