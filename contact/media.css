@@ -1,0 +1,51 @@
+@media (max-width: 600px){
+    .hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(/images/contactphone.jpg);
+        height: 250px;
+    }
+
+    .hero>h1{
+        font-size: 30px;
+        margin: 0px 10px;
+    }
+
+    /* SECTION TWO */
+
+    .contact-div{
+        border-right: none;
+        border-bottom: 2px solid  rgb(21, 221, 3);
+        padding: 40px 10px;
+        font-size: 22px !important;
+        height: 100%;
+        line-height: 35px;
+    }
+
+    .contact> p{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contacts> .time{
+        border-bottom: none;
+    }
+
+    .contact-div> p{
+        font-size: 19px;
+    }
+
+    /* map section */
+    iframe{
+        height: 300px;
+        width: 90%;
+    }
+
+    /* form section */
+    .form-messages{
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    
+}
+
+
