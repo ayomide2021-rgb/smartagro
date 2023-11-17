@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Montserrat', sans-serif;
+    transition: linear .3s;
+}
+
+.team-lead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(241, 239, 239);
+    height: 100%;
+
+}
+
+.team-lead-image{
+    background: url(/images/teamlead.jpg) no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 0px 30px;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.team-lead-about{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    align-items: center;
+    justify-self: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0px 30px;
+}
+
+@media (max-width: 600px){
+    .team-lead-about{
+        margin: 20px 0px;
+    }
+
+    .team-lead-image{
+        margin: 0px 0px;
+    }
+}
+/* PHOTO SECTION */
+.photo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.photo-section> h2{
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photos>div{
+    margin: 20px 20px;
+    height: 200px;
+    width: 300px;
+    background-size: contain  !important;
+}
+
+@media (max-width: 600px){
+    .photos>div{
+        margin: 20px 0px;
+        height: 200px;
+        width: 300px;
+        background-size: contain  !important;
+    }
+
+    .photo-section> h2{
+        width: 80%;
+    }
+}
