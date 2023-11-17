@@ -1,0 +1,40 @@
+@media (max-width: 600px){
+    *{  
+        padding: 0px;
+        overflow: none;
+    }
+
+    .project{
+        height: 100%;
+        display: flex;
+        padding: 100px 50px 200px 50px;
+
+    }
+
+    .project-img> img {
+        width: 100%;
+    }
+    
+    .project-gradient{ 
+        padding: 30px !important;
+    }
+
+    .project-outline{
+        padding: 30px !important;
+        margin-bottom: 30px;
+    }
+
+    .project-img> img {
+        width: 100%;
+    }
+
+    .project-list{
+        padding: 50px 0px;
+        text-align: justify;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

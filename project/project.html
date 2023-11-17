@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/project/project.css">
+    <link rel="stylesheet" href="/project/media.css">
+    <link rel="stylesheet" href="/nav-mediaquiery.css">
+
+     <!-- FONT AWESOME -->
+     <script src="https://kit.fontawesome.com/0384ebf309.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    
+
+</head>
+<body >
+
+    <!-- nav bar -->
+    <div class="mobile-nav">
+
+        <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="/index.html">Home</a>
+                    <a href="/index.html#product">Product</a>
+                    <a href="/project/project.html">Projects</a>
+                    <a href="/team/team.html">Team</a>
+                    <a href="/contact/contact.html">Contact</a>
+                </div>
+        </div>
+            
+        <div class="hamburger-menu">   
+            <span style="font-size:40px;cursor:pointer; padding:20px; color:white; " onclick="openNav()"><i class="fa-solid fa-bars"></i> </span>
+        </div>     
+            <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+
+    </div>
+
+    <nav class="desktop">
+        <div>
+            <a href="/index.html">Home</a>
+            <a href="/index.html#product">Product</a>
+            <a href="/project/project.html">Projects</a>
+            <a href="/team/team.html">Team</a>
+            <a href="/contact/contact.html">Contact</a>
+        </div>
+    </nav>
+    
+   
+    <!-- first section -->
+    <div class="project">
+        <div class="project-head col-lg-6 ">
+            <h1>Our Projects</h1>
+            <p>Smart Agro pioneers a transformative approach to agriculture, dedicating itself to the advancement of the industry through cutting-edge research, development, and sustained growth. Smart Agro strives to empower farmers, uplift rural communities, and ensure food security.</p>
+        </div>
+    </div>
+
+    <!-- NIMTRACK section -->
+    <div class="row project-list" id="nimtracker">
+        <div class="project-img col-lg-6 my-auto" > <img src="/images/nimtracker.png" alt=""></div>
+        <div class="col-lg-6 project-gradient">
+            <h3 class="project-heading">NIM TRACKER</h3>
+            <p>NimTrack, an app is capable of tracking cattle movement and providing a timely and visual presentation of the most current locations of animals. NimTrack is the brainchild of scientists from the Department of Computer Science, Federal University of Agriculture, Abeokuta (FUNAAB), Ogun State and researchers from other Nigerian universities. It was launched during a one-day sensitization workshop, which held at the Federal University of Agriculture, Abeokuta, Ogun State, with the theme: “Intelligent animal tracking and pastoral management.” </p> 
+            <p>"NimTrack keeps up with the received location and provides a timely and visual presentation of the most current locations of their animals; previous locations of the tracked animals can also be viewed by the farmers", Principal Investigator of NimTrack, Dr. Oluwasefunmi Arogundade of the Department of Computer Science, FUNAAB said.</p>
+        </div>
+    </div>
+    <hr class="border-2" style="color: rgb(2, 185, 2);">
+
+    <!-- E-EXTENSIONS section -->
+    <div class="row project-list" id="extension">
+        
+        <div class="col-lg-6 project-outline my-auto">
+            <h3 class="project-heading">E-EXTENSIONS</h3>
+            <p>Electronic extension, often referred to as e-extension, is a modern approach to providing agricultural extension services to farmers through digital and electronic means. Instead of using traditional face-to-face interactions and printed materials, e-extension leverages technology to disseminate information, knowledge, and advice to farmers. </p> 
+            <p>This approach makes use of various digital tools and platforms such as mobile apps, websites, text messages, videos, and other digital communication methods to reach a wider audience of farmers.</p>
+        </div>
+        <div class="project-img col-lg-6 text-end my-auto" > <img src="/images/extensions.png" alt=""></div>
+    </div>  
+    <hr class="border-2" style="color: rgb(2, 185, 2);">
+
+    <!-- AQUA section -->
+    <div class="row project-list" id="aqua">
+        <div class="project-img col-lg-6 my-auto" > <img src="/images/aqua.png" alt=""></div>
+        <div class="col-lg-6  project-gradient">
+            <h3 class="project-heading">AQUA</h3>
+            <p>Smart devices used for measuring aquatic animals and water conditions underwater are essential tools for aquatic biology and environmental research. These devices encompass various technologies, such as underwater cameras, sonar, hydrophones, sensors, tracking tags, and remotely operated vehicles. They provide valuable data on aquatic species, their behavior, and the state of the water environment. </p> 
+            <p>Additionally, they contribute to biodiversity assessments, pollution monitoring, and conservation efforts, helping researchers make informed decisions about aquatic ecosystems. These devices, combined with data transmission and analysis tools, play a pivotal role in understanding and safeguarding underwater environments</p>
+        </div>
+    </div>
+    <hr class="border-2" style="color: rgb(2, 185, 2);">
+
+    <!-- GANTILIZER section -->
+    <div class="row project-list" id="gantilizer">
+        
+        <div class="col-lg-6 project-outline">
+            <h3 class="project-heading">GANTILIZER</h3>
+            <p>Gantilizer is a system used in agriculture to process organic waste, such as animal manure, for re-use to farmers. This process, known as anaerobic digestion, breaks down the organic matter in the waste. As a result, it produces biogas, which is a combination of methane and carbon dioxide. This biogas can be captured and utilized as a renewable energy source for various on-farm purposes, including heating and electricity generation.</p> 
+            <p>  It play a crucial role in managing animal waste, reducing environmental impacts, and providing valuable resources for sustainable farming practices.</p>
+        </div>
+        <div class="project-img col-lg-6 my-auto text-end" > <img src="/images/gantilizer.png" alt=""></div>
+    </div>
+    <hr class="border-2" style="color: rgb(2, 185, 2);">
+
+    <!-- RECYCLING SYSTEM section -->
+    <div class="row project-list" id="recycling">
+        <div class="project-img col-lg-6 my-auto" > <img src="/images/recycling.jpg" alt=""></div>
+        <div class="col-lg-6  project-gradient">
+            <h3 class="project-heading">RECYCLING SYSTEM</h3>
+            <p>The recycling system is a comprehensive process that begins with the collection of recyclables from households, businesses, and industries. These materials are transported to Material Recovery Facilities (MRFs), where they are sorted and processed. After sorting, materials are baled or shredded for efficient transportation. At processing facilities, materials are cleaned and prepared for reuse, and manufacturers use them to produce new products. </p>
+            <p>Public education and regulation promote recycling, emphasizing its economic and environmental benefits. Challenges include contamination and the need for ongoing innovation in recycling technologies. Overall, recycling plays a crucial role in resource conservation and waste reduction</p>
+        </div>
+    </div>
+
+ <!-- FOOTER SECTION -->
+
+<div class="eight-section">
+
+    <div class="eight-contain">
+
+        <div class="contain" style="width: 20%;">
+            <img src="/images/logo.jpg" alt="" width="70px"><br>
+            <p>Smart Agro is an Initiative for the research, development and growth of agricultural industires</p>
+        </div>
+
+        <div class="contain">
+           <h5>LINKS</h5><br>
+            <a href="/index.html">Home</a> <br>
+            <a href="/index.html#product">Product</a><br>
+            <a href="/project/project.html">Projects</a> <br>
+            <a href="/team/team.html">Team</a> <br>
+            <a href="/contact/contact.html">Contact</a> <br>
+        </div>
+
+        <div class="contain" style="width: 20%;">
+            <h5>CONTACT US</h5><br>
+            <a href="tell:2347030700561"><i class="fa-solid fa-phone"></i> +234 0703 070 0561</a><br>
+            <a href="mailto:"><i class="fa-solid fa-envelope"></i>smartagro@gmail.com</a><br>
+            <a href="https://smartagro.com.ng/"><i class="fa-solid fa-globe"></i>  smartagro.com.ng</a><br>
+            <a href=""><i class="fa-solid fa-location-dot"></i> Federal University of Agriculture, Abeokuta, Nigeria</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
