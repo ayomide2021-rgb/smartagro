@@ -44,7 +44,7 @@ nav> div> a:hover{
 
 .hero{
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(/images/agro.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(images/agro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
