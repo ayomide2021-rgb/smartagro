@@ -1,6 +1,6 @@
 @media (max-width: 600px){
     .hero{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(/images/contactphone.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(images/contactphone.jpg);
         height: 250px;
     }
 
