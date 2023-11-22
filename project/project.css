@@ -38,7 +38,7 @@ nav> div> a:hover{
 
 
 .project{
-    background-image:  url(/images/projecthead.png);
+    background-image:  url(images/projecthead.png);
     height: 100%;
     background-size: cover;
     color: rgb(12, 105, 0);
