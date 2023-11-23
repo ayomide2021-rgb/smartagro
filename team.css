@@ -42,7 +42,7 @@ nav> div> a:hover{
 /* hero */
 
 .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(/images/team.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(images/team.jpg);
     background-size: cover;
     height: 400px;
     display: flex;
